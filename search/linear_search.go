@@ -4,7 +4,7 @@ import "fmt"
 
 func linearSearch(input []string, query string) int {
 
-	for index,item := range input {
+	for index, item := range input {
 		if item == query {
 			return index
 		}
@@ -17,7 +17,7 @@ func main() {
 	fmt.Println("Linear Search - complexity O(n)")
 	fmt.Println("####################################")
 
-	input := []string{"A","B","C","D","E","F","G","H","I","J"}
+	input := []string{"A", "B", "C", "D", "E", "F", "G", "H", "I", "J"}
 	query := "J"
 	index := linearSearch(input, query)
 

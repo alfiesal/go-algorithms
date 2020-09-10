@@ -2,6 +2,8 @@
 
 ### Algorithms implemented in Go
 
-## Search Algorithms
+### Algorithms by Topic
 
-### Linear Search
+* **Search**
+  * [Linear]()
+  * [Binary Search]() 
