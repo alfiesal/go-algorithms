@@ -1,4 +1,4 @@
-package main
+package search
 
 import "fmt"
 
@@ -25,7 +25,7 @@ func binarySearch(input []int, query int, lowIndex int, highIndex int) int {
 }
 
 // Example of usage binary search algorithm
-func binarySearchExample() {
+func BinarySearchExample() {
 	fmt.Println("####################################")
 	fmt.Println("Binary Search - complexity O(log2n)")
 	fmt.Println("####################################")
