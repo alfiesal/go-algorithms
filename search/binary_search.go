@@ -24,7 +24,8 @@ func binarySearch(input []int, query int, lowIndex int, highIndex int) int {
 	return -1
 }
 
-func main() {
+// Example of usage binary search algorithm
+func binarySearchExample() {
 	fmt.Println("####################################")
 	fmt.Println("Binary Search - complexity O(log2n)")
 	fmt.Println("####################################")

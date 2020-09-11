@@ -12,7 +12,8 @@ func linearSearch(input []string, query string) int {
 	return -1
 }
 
-func main() {
+// Example of usage linear search algorithm
+func linearSearchExample() {
 	fmt.Println("####################################")
 	fmt.Println("Linear Search - complexity O(n)")
 	fmt.Println("####################################")
