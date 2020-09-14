@@ -28,9 +28,9 @@ func binarySearch(input []int, query int, lowIndex int, highIndex int) int {
 // Iterative binary search algorithms
 func iterativeBinarySearch(input []int, query int) int {
 	lowIndex := 0
-	highIndex := len(input)
+	highIndex := len(input) - 1
 
-	for lowIndex < highIndex {
+	for lowIndex <= highIndex {
 		middleIndex := int(lowIndex + (highIndex-lowIndex)/2)
 		if query == input[middleIndex] {
 			return middleIndex
@@ -58,7 +58,7 @@ func BinarySearchExample() {
 	query := 11
 
 	fmt.Println("Recursive")
-	recursiveIndex := binarySearch(input, query, 0, len(input))
+	recursiveIndex := binarySearch(input, query, 0, len(input)-1)
 
 	if recursiveIndex == -1 {
 		fmt.Println("Can't find element: ", query)
