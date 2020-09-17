@@ -1,4 +1,4 @@
-package search
+package linear_search
 
 import "testing"
 

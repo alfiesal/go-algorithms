@@ -5,5 +5,7 @@
 ### Algorithms by Topic
 
 * **Search**
-  * [Linear]()
-  * [Binary Search]() 
+  * [Linear](search/linear_search)
+  * [Binary Search](search/binary_search)
+  * [Jump Search](search/jump_search)
+

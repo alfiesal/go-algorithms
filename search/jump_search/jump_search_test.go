@@ -1,4 +1,4 @@
-package search
+package jump_search
 
 import "testing"
 
